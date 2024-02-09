@@ -1,60 +1,77 @@
-# Project Name
+# Student Management System
 
-Brief description or introduction of the project.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Installation
-
-Instructions on how to install and set up the project.
-
-1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
-2. Navigate to the project directory: `cd project-name`
-3. Install dependencies: `npm install`
-
-## Usage
-
-Instructions on how to use the project or run it.
-
-1. Start the application: `npm start`
-2. Open your web browser and navigate to `http://localhost:3000` to access the system.
-3. Provide any necessary credentials or configuration details.
-4. Describe the steps or actions required to interact with the project.
+This application is a Student Management System developed using C# WPF (Windows Presentation Foundation) with MVVM (Model-View-ViewModel) architecture. It allows users with different roles (admin and teachers) to perform various tasks related to managing students' data.
 
 ## Features
 
-- List the key features or functionalities of the project.
-- Provide a brief explanation of each feature.
-- Use bullet points or subheadings if needed.
+### Admin Role:
 
-## Contributing
+- Create, view, edit, and delete teacher accounts.
+- View the list of all teachers.
+- Assign teachers to specific subjects or classes.
 
-Explain how others can contribute to the project.
+### Teacher Role:
 
-- If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
-- Provide guidelines or instructions for contributing.
-- Include any code formatting or linting rules.
-- Mention the required programming languages or technologies for contributions.
+- Add new student records with details such as name, age, gender, etc.
+- Edit existing student records.
+- Delete student records.
+- Calculate student GPA (Grade Point Average).
 
-## License
+## Prerequisites
 
-This project is licensed under the [License Name](LICENSE.md) (if applicable).
-- Mention the type of license used (e.g., MIT, Apache, GNU, etc.).
-- If your project does not have a license, consider adding one. You can use resources like choosealicense.com to select an appropriate license.
+- Visual Studio (Recommended version: Visual Studio 2019 or later)
+- .NET Framework (Recommended version: .NET Framework 4.7.2 or later)
 
-## Contact
+## Getting Started
 
-- Provide your contact information (email, social media handles, etc.).
-- Encourage users to reach out for questions, issues, or inquiries.
-- You can also include a link to a project-specific contact form or support page.
+1. Clone the repository:
 
-Feel free to customize the template according to your specific project requirements. Include additional sections if necessary, such as "Technologies Used," "Known Issues," "Roadmap," or "Acknowledgments." Provide clear instructions on how to use the project and any dependencies needed for running it.
+```bash
+git clone <repository_url>
+2.Open the solution file (StudentManagementSystem.sln) in Visual Studio.
 
-Remember to update the project name, installation instructions, usage guide, contact information, and other details to reflect your project accurately.
+3.Build the solution to restore dependencies.
+
+4.Set the startup project to the main WPF application.
+
+5.Run the application.
+
+
+## Usage
+
+### Admin Role:
+
+- Create, view, edit, and delete teacher accounts.
+- View the list of all teachers.
+- Assign teachers to specific subjects or classes.
+
+### Teacher Role:
+
+- Add new student records with details such as name, age, gender, etc.
+- Edit existing student records.
+- Delete student records.
+- Calculate student GPA (Grade Point Average).
+
+## Prerequisites
+
+- Visual Studio (Recommended version: Visual Studio 2019 or later)
+- .NET Framework (Recommended version: .NET Framework 4.7.2 or later)
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone <repository_url>
+Open the solution file (StudentManagementSystem.sln) in Visual Studio.
+
+Build the solution to restore dependencies.
+
+Set the startup project to the main WPF application.
+
+Run the application.
+
+
+
+
+
